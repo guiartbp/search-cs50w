@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="src/adv.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu-container all-div">
+                <div class="menu-position">
+                    <div class="menu-items">
+                        <button><a href="/index.html">Voltar ao Inicio</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-adv">
+                <h3>Pesquisa avançada</h3>
+            </div>
+            <div id="border-adv"></div>
+            <form id="search-form" action="https://google.com/search">
+                <div class="advanced-search">
+                        <label>Localizar paginas com...</label>
+                        <p></p>
+                        <span>Fazer isso na caixa de pesquisa.</span>
+                </div>
+                <div class="advanced-search">
+                        <label for="">todas estas palavras:</label>
+                        <input type="text" name="as_q">
+                        <span>Digite as palavras importantes: rat terrier tricolor</span>
+                </div>
+                <div class="advanced-search">
+                        <label for="">esta expressão ou frase exata:</label>
+                        <input type="text" name="as_epq">
+                        <span>Coloque palavras exatas entre aspas: "rat terrier"</span>
+                </div>
+                <div class="advanced-search">
+                        <label for="">qualquer uma destas palavras:</label>
+                        <input value="" type="text" name="as_oq">
+                        <span>Digite OR entre todas as palavras que você procura: miniatura OR padrão</span>
+                </div>
+                <div class="advanced-search">
+                        <label for="">nenhuma destas palavras:</label>
+                        <input type="text" name="as_eq">
+                        <span>Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"</span>
+                </div>
+                <input class="button-search-adv" type="submit" value="Pesquisa Avançada">
+            </form>
+            
+        </div>
+            <div class="footer all-div">
+                <p> Isto foi feito por <a href="https://www.linkedin.com/in/guiartbp/">Guilherme Arthur</a></p>
+            </div>
+        </div>
+    </body>
+</html>
